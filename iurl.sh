@@ -8,7 +8,7 @@ PROGNAME=${0##*/}
 VERSION="0.1"
 
 usage() {
-  echo "Usage: ${PROGNAME} [-h|--help ] [url] [string]"
+  echo "Usage: ${PROGNAME} [-h|--help] [url] [string]"
 }
 
 help_message() {
