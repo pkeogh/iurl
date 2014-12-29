@@ -45,7 +45,7 @@ fi
 regex='(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]'
 if [[ $url =~ $regex ]]
 then
-    echo "URL validated"
+    echo "URL format validated..."
 else
     echo "Invalid URL"
     usage
